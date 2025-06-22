@@ -1134,7 +1134,7 @@ where
                     to_r.pos,
                     latest_pos,
                     wire_threshold,
-                    wire_width.max(2.0),
+                    wire_width.max(4.0),
                     pick_wire_style(from_r.wire_style, to_r.wire_style),
                 );
 
